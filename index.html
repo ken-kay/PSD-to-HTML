@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <!-- Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap-utilities.min.css"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap-grid.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap-reboot.min.css" rel="stylesheet">
+
+    <!-- Foundation CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/css/foundation.min.css">
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <!-- JS -->
+    <script src="./main.js"></script>
+
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- Foundation JS -->
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/js/foundation.min.js"></script>
+</head>
+
+<body>
+    <!-- Sticky Navbar -->
+        <header>
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+                            <img src="./Assets/pics/logo.png" width="142" height="45" alt="logo">
+                        </div>
+                        <ul class="container">
+                            <li><a class="nav-link" href="#history">01. History</a></li>
+                            <li><a class="nav-link" href="#climb">02. Team</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            
+        </header>
+
+    
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="./Assets/pics/hero.png" style="width: 100%; height: auto;">
+    </section>
+
+    <!-- History Section -->
+    <section class="history" id="history">
+        <div class="container">
+            <div class="container history-number">
+                <b class="container">01.</b>
+                <strong style="position:relative; top: -2rem; left:-3rem;">History</strong>
+            </div>
+            <div class="history-text">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ante viverra, rutrum erat rutrum,
+                    consectetur mi.
+                    Proin at maximus est. Nullam purus ex, iaculis sed erat sed, blandit tincidunt quam. Cras
+                    scelerisque id
+                    quam sed
+                    dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit
+                    dignissim tortor nec
+                    congue.
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Thumbnail Carousel -->
+    <section class="thumbs">
+        <div class="container owl-carousel owl-theme">
+            <div class="item">
+                <img src="./Assets/pics/thumb1.png" alt="mountain-side">
+            </div>
+            <div class="item">
+                <img src="./Assets/pics/thumb2.png" alt="man-standing">
+            </div>
+            <div class="item">
+                <img src="./Assets/pics/thumb1.png" alt="mountain-side">
+            </div>
+            <div class="item">
+                <img src="./Assets/pics/thumb2.png" alt="man-standing">
+            </div>
+            <div class="item">
+                <img src="./Assets/pics/thumb1.png" alt="mountain-side">
+            </div>
+            <div class="item">
+                <img src="./Assets/pics/thumb2.png" alt="man-standing">
+            </div>
+            <div class="item">
+                <img src="./Assets/pics/thumb1.png" alt="mountain-side">
+            </div>
+            <div class="item">
+                <img src="./Assets/pics/thumb2.png" alt="man-standing">
+            </div>
+            <div class="item">
+                <img src="./Assets/pics/thumb1.png" alt="mountain-side">
+            </div>
+            <div class="item">
+                <img src="./Assets/pics/thumb2.png" alt="man-standing">
+            </div>
+            <div class="item">
+                <img src="./Assets/pics/thumb1.png" alt="mountain-side">
+            </div>
+            <div class="item">
+                <img src="./Assets/pics/thumb2.png" alt="man-standing">
+            </div>
+        </div>
+    </section>
+
+    <!-- Climb Section -->
+    <section class="climb" id="climb" style="position:relative; top: 50%;">
+        <div class="container">
+            <div class="container climb-number">
+                <b class="container">02.</b>
+                <strong class="container" style="position:relative; top: -2rem; left:-3rem;">Climb</strong>
+            </div>
+            <div class="climb-text">
+                <p>
+                    Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac,
+                    tristique ut quam. Vivamus suscipit dignissim tortor nec congue.
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Mountain Tabs Section -->
+    <section id="Mountains">
+        <div>
+            <!-- Creating an unordered list as an accordion -->
+            <ul class="accordion accordion-" data-responsive-accordion-tabs="accordion large-tabs"
+                style="background-color: #414f6b;">
+                <li class="accordion-item is-active" data-accordion-item>
+                    <a href="#mountain-1-title" class="accordion-title">
+                        <button class="tab-color">
+                            Mountain 1
+                        </button>
+    
+                    </a>
+                    <div class="accordion-content" data-tab-content>
+                        <section class="m1">
+                            <section class="m1-text" style="margin-top: 5%;">
+                                <strong>Schedule</strong>
+                                <p>
+                                <table class="container">
+                                    <tr>
+                                        <td>25</td>
+                                        <td>Nov</td>
+                                        <td>2016</td>
+                                        <td>Vestibulum viverra</td>
+                                    </tr>
+                                    <tr>
+                                        <td>28</td>
+                                        <td>Dec</td>
+                                        <td>2016</td>
+                                        <td>Vestibulum viverra</td>
+                                    </tr>
+                                    <tr>
+                                        <td>18</td>
+                                        <td>Dec</td>
+                                        <td>2016</td>
+                                        <td>Vestibulum viverra</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>Jan</td>
+                                        <td>2017</td>
+                                        <td>Vestibulum viverra</td>
+                                    </tr>
+    
+                                </table>
+                                </p>
+    
+                            </section>
+                        </section>
+                    </div>
+                </li>
+                <li class="accordion-item" data-accordion-item>
+                    <a href="#mountain-2-title" class="accordion-title">
+                        <button class="tab-color">
+                            Mountain 2
+                        </button>
+                    </a>
+                    <div class="accordion-content" data-tab-content>
+                        <section class="m2">
+                            <section class="m2-text" style="margin-top: 5%;">
+                                <strong>Schedule</strong>
+                                <p>
+                                <table class="container">
+                                    <tr>
+                                        <td>17</td>
+                                        <td>Nov</td>
+                                        <td>2016</td>
+                                        <td>Vestibulum viverra</td>
+                                    </tr>
+                                    <tr>
+                                        <td>13</td>
+                                        <td>Dec</td>
+                                        <td>2016</td>
+                                        <td>Vestibulum viverra</td>
+                                    </tr>
+                                    <tr>
+                                        <td>28</td>
+                                        <td>Dec</td>
+                                        <td>2016</td>
+                                        <td>Vestibulum viverra</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>Feb</td>
+                                        <td>2017</td>
+                                        <td>Vestibulum viverra</td>
+                                    </tr>
+    
+                                </table>
+                                </p>
+    
+                            </section>
+                        </section>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-color col-lg mx-auto">
+            <div class="container footer-color-container">
+                <div class="row">
+                    <div class="column col-sm-6 col-md-3" style="position:relative; float:left; width:fit-content;">
+                        <img src="./Assets/pics/foot-logo.png" width="163" height="43" alt="footer-blue">
+                    </div>
+                    <div class="column col-sm-8" style="font-family: Lato; font-size: 1.2rem; font-weight:bold;">
+                        <p style="position:relative; top:0.4rem; float:right;">
+                            COPYRIGHT 2016. ALL RIGHTS RESERVED.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    <script>
+        $(document).foundation();
+    </script>
+    <!-- JS FILES -->
+    <script src="./main.js"></script>
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+</body>
+
+</html>
