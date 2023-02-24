@@ -17,7 +17,7 @@
 ![screenshot](LA.gif)
 
 ## Key Features
-
+---
 * Responsive Design
   * Navigation, text, and images all adjust to window size
   * Accordion tabs adjust to display size
@@ -28,7 +28,7 @@
   * On click
 
 ## How To Use
-
+---
 To clone and run this application, you'll need [Git](https://git-scm.com) installed on your computer. From your command line:
 
 ```bash
@@ -40,7 +40,7 @@ Go Live
 ```
 
 ## Credits
-
+---
 This software uses the following open source packages:
 
 * [Foundation](https://get.foundation/)
@@ -50,7 +50,5 @@ This software uses the following open source packages:
 * [CodeMirror](http://codemirror.net/)
 
 ## License
-
-MIT
-
 ---
+Copyright Copyright (c) 2023 Kenani Kenani (MIT)
