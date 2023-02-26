@@ -77,6 +77,7 @@ header.sticky-nav .logo {
     background-repeat: no-repeat;
     background-size:cover;
     text-align: center;
+    height: auto;
 }
 
 .logo-label-top {
@@ -107,6 +108,12 @@ header.sticky-nav .logo {
     height: 100vh;
     background: url(./Assets/pics/peak.png);
     background-size: cover;
+}
+
+.history-title {
+    position: relative;
+        top: -2rem;
+        left: -3rem;
 }
 
 .history-number {
@@ -348,3 +355,4 @@ header.sticky-nav .logo {
     color: #63769d;
     text-align: center;
 }
+

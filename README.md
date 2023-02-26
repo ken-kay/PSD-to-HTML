@@ -14,7 +14,7 @@
 
 
 
-![screenshot](LA.gif)
+![screenshot](./Assets/refs/LA.gif)
 
 ## Key Features
 ---
